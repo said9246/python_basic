@@ -1,16 +1,8 @@
-# varible topic 
+a = [1, 2, 3]
+b = [1, 2, 3]
+c = a
 
-text=   "98"
-t=int(text)
-
-
-a=10
-
-print(t+a)
-
-# Multiple Assignments
-a, b, c = 1, 2, 3
-print(a, b, c)
-
-x = y = z = "same"
-print(x, y, z)
+print(a is b)      # same object?
+print(a is c)      # same reference?
+print(2 in a)      # membership test
+print(5 not in a)
