@@ -1,3 +1,33 @@
-x=50
+# ------------data types in python----------------
+a=10
+b=20.5
+c=5+6j
+d="Hello"
+e=True
+f=None
+g=[1,2,3,4,5]
+h=(1,2,3,4,5)
+i={1,2,3,4,5}
+j={"name":"John", "age":30}
+k=range(5)
+l=bytes(5)
+m=bytearray(5)
+n=memoryview(bytes(5))
+print(a,b,c,d,e,f)
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
+print(type(h))
+print(type(i))                      
 
-print("integer:", x)
+print(type(j))
+print(type(k))
+print(type(l))
+print(type(m))
+print(type(n))
+
+# --- IGNORE ---  ~
