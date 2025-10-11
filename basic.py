@@ -1,17 +1,12 @@
-#input
 
-print("Welcome to the program!")
-name = input("Enter your name: ")
-age = input("Enter your age: ")
+#type conversion
 
-print("Hello", name)
-print("You are", age, "years old")
-a=int(name)
-b=int(age)
+list1 = [1, 2, 3]
+tuple1 = tuple(list1)
+set1 = set(list1)
 
-print(a + b)
+print(tuple1)
+print(set1)
 
-print("Goodbye!")
-print("Python", "is", "awesome", sep="-")
-print("Hello", end=" ")
-print("World!")
+string = "Python"
+print(list(string))
